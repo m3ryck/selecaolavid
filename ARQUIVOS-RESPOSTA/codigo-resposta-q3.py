@@ -29,6 +29,9 @@ data_augmentation(df)
 
 
 #df.to_csv("corpus-resposta-q3.csv",index=False)
-
-                    
+#df=df.values.tolist()
+#with open('corpus-resposta-q3.txt', 'w') as f:
+#        for item in df:
+#            f.write("%s\n" % item)
+#                    
             
